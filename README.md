@@ -8,4 +8,6 @@
 5. An Output Network. The activation function is SoftSign. The input is the output of the General Network. The output is the output of the entire model.
 ### Other Important Details
 1. The current model's output is Softmaxed so I am using a logarithmic cost function.
-2. The current environment the model is being trained to remember a number that was specified 2 iterations ago.
+2. The current environment the model is being trained to remember a number that was specified 2 iterations ago, for 10 iterations.
+3. The weights are initialized to optimised normal distributed random numbers based on the activation function of the network.
+4. The biases are initialized to 0.
